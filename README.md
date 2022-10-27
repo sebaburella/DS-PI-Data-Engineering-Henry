@@ -28,3 +28,8 @@ En este proceso se tomaran los archivos de Producto y Sucursal y se añadiran a 
 # Carga Incremental del Archivo de Excel
 
 En este proceso se tomaran archivos de precios y se procesaran de la misma manera que en el proceso anterior, pero en este caso se hara lectura a un archivo .db y se lo escribira, los precios inexistentes seran agregados, mientras que los precios existentes seran sometidos a una comparacion donde la tabla final solo contendra el precio con la fecha mas reciente
+
+# Generar Base de Datos
+Para generar la base de Datos se debe seguir la estructura propuesta en las carpetas, con una sucursal en csv y un producto en parquet.
+  Para los precios se debe usar un csv, txt o json, que contengan la fecha al FINAL DEL NOMBRE con formato YYYYMMDD.
+  En caso de un excel tambien deben contener la fecha en el mismo formato al final del nombre, pero no del archivo, si no de cada hoja que contenga el Excel
