@@ -8,7 +8,7 @@ Proyecto presentado para la finalizacion de la carrera Data Science en Henry, or
 -Entre las Herramientas se encuentran:
 
 -Jupyter Notebooks, SQL, Python.
--Uso de Librerias de Python: FastParquet, Pandas.
+-Uso de Librerias de Python: FastParquet, Pandas, Airflow.
 
 # Propuesta
 
